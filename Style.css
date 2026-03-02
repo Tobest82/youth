@@ -1,0 +1,100 @@
+
+:root {
+    --red-color :#BE3144;
+    --Yellow-color:#ffc107;
+    --white-color: #ffffff;
+}
+
+.Header-info {
+    background-color: var(--red-color);
+}
+
+.Right-header-info {
+    background-color: var(--Yellow-color) !important;
+}
+
+/* Code for the Navigation bar */
+.navbar-brand {
+    background-color: var(--Yellow-color);
+}
+
+.active {
+    color: var(--red-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--red-color)
+}
+
+.fa-user-large {
+    color: var(--red-color) !important;
+}
+
+.Login-link {
+    color: var(--red-color);
+}
+
+
+/* Code for the carousel */
+.carousel-inner {
+    height: 100vh !important;
+}
+
+.carousel-inner img{
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+    filter: saturate(1.1);
+}
+
+.carousel-caption {
+    padding: 100px 0px !important;
+}
+
+.carousel-caption h1 {
+    font-size: 60px !important;
+}
+
+.carousel-caption span {
+    color: var(--Yellow-color);
+}
+
+.The-overlay-container {
+    position: relative;
+    width: 100%;
+}
+
+.Color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-image: linear-gradient(to right, #be3144, transparent);
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--Yellow-color);
+}
+
+.Login-button {
+    background-color: var(--white-color);
+    color: var(--red-color);
+}
+
+.Login-button:hover {
+    color: var(--red-color);
+    background-color: #e9e4e4;
+}
+
+.Sign-in-button {
+    color: var(--Yellow-color);
+}
+
+.Sign-in-button:hover {
+    background-color: var(--Yellow-color);
+    color: var(--white-color);
+    border-color: var(--white-color);
+}
+
