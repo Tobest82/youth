@@ -1,0 +1,32 @@
+:root {
+    --red-color :#BE3144;
+    --Yellow-color:#ffc107;
+    --white-color: #ffffff;
+}
+
+body {
+    background-image: url(Images/Registration\ image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.The-form-container {
+    backdrop-filter: blur(7px);
+    border: 3px solid var(--white-color);
+    background: linear-gradient(to right, #be3144c4, #be314428);
+}
+
+.The-info-text h3 {
+    color: var(--Yellow-color) !important;
+}
+
+button {
+    background-color: var(--Yellow-color) !important;
+}
+
+label {
+    color: var(--Yellow-color);
+}
+
